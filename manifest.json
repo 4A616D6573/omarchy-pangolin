@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.4a616d6573.pangolin",
+  "name": "Pangolin",
+  "version": "1.0.0",
+  "author": "4A616D6573",
+  "description": "Pangolin client connection status, info, and connect/disconnect.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Pangolin",
+    "description": "Pangolin client connection status, info, and connect/disconnect.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

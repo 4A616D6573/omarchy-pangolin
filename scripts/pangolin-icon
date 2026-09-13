@@ -1,0 +1,18 @@
+#!/bin/bash
+# Renders the monochrome Pangolin mark tinted to a given hex color, for the
+# "io.github.4a616d6573.pangolin" QML bar module (which can't rely on GPU
+# colorization effects in the plugin's rendering context, so the tint is
+# baked into the SVG on disk instead).
+#
+# Usage: pangolin-icon <#rrggbb> <output-svg-path>
+
+set -euo pipefail
+
+color="${1:?color required}"
+out="${2:?output path required}"
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+src="$script_dir/../assets/pangolin-mono.svg"
+
+mkdir -p "$(dirname "$out")"
+sed "s/#000000/${color}/g" "$src" >"$out.tmp"
+mv "$out.tmp" "$out"
