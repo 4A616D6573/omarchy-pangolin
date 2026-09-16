@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "io.github.4a616d6573.pangolin",
   "name": "Pangolin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "4A616D6573",
   "description": "Bar widget for the Pangolin VPN client: shows connection status and lets you connect or disconnect with one click.",
   "kinds": [
