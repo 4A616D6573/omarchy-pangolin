@@ -4,7 +4,7 @@
   "name": "Pangolin",
   "version": "1.0.0",
   "author": "4A616D6573",
-  "description": "Pangolin client connection status, info, and connect/disconnect.",
+  "description": "Bar widget for the Pangolin VPN client: shows connection status and lets you connect or disconnect with one click.",
   "kinds": [
     "bar-widget"
   ],
@@ -13,7 +13,7 @@
   },
   "barWidget": {
     "displayName": "Pangolin",
-    "description": "Pangolin client connection status, info, and connect/disconnect.",
+    "description": "Bar widget for the Pangolin VPN client: shows connection status and lets you connect or disconnect with one click.",
     "category": "Network",
     "allowMultiple": false,
     "defaultSection": "right"

@@ -1,9 +1,10 @@
 # Pangolin bar widget for Omarchy
 
 An [Omarchy](https://omarchy.org/) shell (Quickshell) bar widget for the
-[Pangolin](https://github.com/fosrl/pangolin) CLI client. Shows the Pangolin
-logo tinted to your theme's foreground color, with a popup for connection
-info and a connect/disconnect toggle.
+[Pangolin](https://github.com/fosrl/pangolin) VPN client. Adds an icon to the
+bar (tinted to your theme's foreground color) that shows whether you're
+connected, and opens a popup with connection details and a
+connect/disconnect button.
 
 ## Features
 
