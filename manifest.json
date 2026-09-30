@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "id": "io.github.4a616d6573.pangolin",
-  "name": "Pangolin",
-  "version": "1.0.1",
+  "name": "Pangolin VPN Client",
+  "version": "1.0.2",
   "author": "4A616D6573",
   "description": "Bar widget for the Pangolin VPN client: shows connection status and lets you connect or disconnect with one click.",
   "kinds": [
@@ -12,7 +12,7 @@
     "barWidget": "Panel.qml"
   },
   "barWidget": {
-    "displayName": "Pangolin",
+    "displayName": "Pangolin VPN Client",
     "description": "Bar widget for the Pangolin VPN client: shows connection status and lets you connect or disconnect with one click.",
     "category": "Network",
     "allowMultiple": false,
